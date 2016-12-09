@@ -1,3 +1,10 @@
+Changes in [1.2.16](https://github.com/dbkr/test/releases/tag/v1.2.16) (2016-12-09)
+===================================================================================
+[Full Changelog](https://github.com/dbkr/test/compare/v1.2.15...v1.2.16)
+
+ * one
+ * two
+
 Changes in [1.2.15](https://github.com/dbkr/test/releases/tag/v1.2.15) (2016-12-09)
 ===================================================================================
 [Full Changelog](https://github.com/dbkr/test/compare/v1.2.12...v1.2.15)
