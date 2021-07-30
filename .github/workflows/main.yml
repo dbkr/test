@@ -6,4 +6,4 @@ jobs:
   its_the_test_job:
     runs-on: ubuntu-latest
     name: jimmy mc jobsworth
-    uses: dbkr/testworkflow@master
+    uses: dbkr/testworkflow@v1.0
