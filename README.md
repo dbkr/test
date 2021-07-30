@@ -7,3 +7,5 @@ here is some bad* markdown
 *has mismatched asterisks
 
 this *is* good though
+
+can we escape\* it?
