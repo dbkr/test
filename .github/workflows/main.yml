@@ -6,4 +6,4 @@ jobs:
   its_the_test_job:
       runs-on: ubuntu-latest
       steps:
-        - uses: actions/hello-world-docker-action@master
+        - uses: dbkr/testworkflow@master
