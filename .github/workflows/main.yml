@@ -1,0 +1,9 @@
+name: testy
+on:
+  pull_request:
+    types: [ opened, edited ]
+jobs:
+  its_the_test_job:
+    runs-on: ubuntu-latest
+    name: jimmy mc jobsworth
+    uses: dbkr/testworkflow
