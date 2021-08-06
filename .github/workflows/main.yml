@@ -8,4 +8,4 @@ jobs:
       steps:
         - uses: matrix-org/allchange@dbkr/checkeraction
           with:
-            ghtoken: ${{ secrets.GITHUB_TOKEN }}
+            ghToken: ${{ secrets.GITHUB_TOKEN }}
