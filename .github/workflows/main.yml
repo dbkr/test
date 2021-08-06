@@ -1,6 +1,6 @@
 name: testy
 on:
-  pull_request:
+  pull_request_target:
     types: [ opened, edited ]
 jobs:
   its_the_test_job:
