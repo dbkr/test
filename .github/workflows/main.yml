@@ -6,6 +6,6 @@ jobs:
   its_the_test_job:
       runs-on: ubuntu-latest
       steps:
-        - uses: dbkr/allchange@prdesc
+        - uses: dbkr/allchange@main
           with:
             ghToken: ${{ secrets.GITHUB_TOKEN }}
