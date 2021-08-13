@@ -7,6 +7,6 @@ jobs:
       name: TestJob
       runs-on: ubuntu-latest
       steps:
-        - uses: dbkr/allchange@main
+        - uses: dbkr/testworkflow@master
           with:
             ghToken: ${{ secrets.GITHUB_TOKEN }}
