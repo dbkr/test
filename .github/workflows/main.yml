@@ -1,6 +1,7 @@
 name: testy
 on:
-  pull_request: {}
+  pull_request:
+    types: [opened, edited, synchronize]
 jobs:
   its_the_test_job:
     runs-on: ubuntu-latest
