@@ -8,6 +8,6 @@ jobs:
       - uses: actions/github-script@v3
         with:
           script: |
-            if (!['develop', 'staging'].includes(github.event.pull_request.base.ref) || !github.event.pull_request.base.ref.startsWith('feat/') {
+            if (!['develop', 'staging'].includes(github.event.pull_request.base.ref) || !github.event.pull_request.base.ref.startsWith('feat/')) {
               core.setFailed("Base branch invalid");
             }
